@@ -91,9 +91,9 @@ def unsolved_puzzle(board,difficulty):
 
 def play_game(solved_board, unsolved_board): 
     while True:    
-        row=int(input("Enter row number (1-9):")) - 1 
-        col=int(input("Enter column number (1-9):")) - 1 
-        number_check=int(input("Enter the number((1-9) or input 10 to exit):"))
+        row=int(input("Enter row number (1-9):\n")) - 1 
+        col=int(input("Enter column number (1-9):\n")) - 1 
+        number_check=int(input("Enter the number((1-9) or input 10 to exit):\n"))
         if number_check!=10: 
             if unsolved_board[row,col]==0:
                 print(solved_board[row,col])
