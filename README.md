@@ -1,31 +1,97 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Smashing Sudoku 
 
-Welcome lastchancebar,
+## Table of Contents 
+- <a href="#about">About Smashing Sudoku</a>
+- <a href="#how_to">How to play</a>
+- <a href="#ux">UX Design</a>
+  - <a href="#user_stories">User Stories</a>
+  - <a href="#typography">Typography</a>
+  - <a href="#color">Color</a>
+- <a href="#features">Features</a>
+  - <a href="#difficulty">Difficulty Settings</a>
+  - <a href="#board">Board</a>
+  - <a href="#input">Colored Input</a>
+  - <a href="#rules">Rules</a>
+  - <a href="#val_check">Validity Check</a>
+  - <a href="#timer">Timer</a>
+  - <a href="#solution">Solution</a>
+  - <a href="#play_again">Play Again</a>
+  - <a href="#input_val">Input Validation</a>
+  - <a href="#future">Future Features</a>
+- <a href="#data_model">Data Model</a>
+  - <a href="#attributes">Attributes</a>
+  - <a href="#methods">Methods</a>
+- <a href="#logic">Logic flow</a>
+- <a href="#techno">Technologies Used</a>
+- <a href="#testing">Testing</a>
+  - <a href="#bugs">Bugs</a>
+  - <a href="#validator_test">Validator Testing</a>
+  - <a href="#test_user_stories">Testing User Stories</a>
+- <a href="#deployment">Deployment</a>
+- <a href="#credits">Credits</a>
+  - <a href="#tutorials">Tutorials</a>
+  - <a href="#acknowledgements">Acknowledgements</a>
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+<section id="about">
 
-## Reminders
+# About Smashing Sudoku
+Smashing Sudoku is a Python terminal game. It is deployed on heroku and uses a mock terminal made by Code institute. 
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+Users can play the classic game of Sudoku popularised by Maki Kaji.
 
-## Creating the Heroku app
+Users can select an easy, medium or hard Sudoku puzzle to solve, get hints if they are stuck on a square, and after finishing the puzzle users can see the correct solution as well as see how long it took to fill the board. 
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+[The deployed site is here!](https://smashing-sudoku.herokuapp.com/)
 
-1. `heroku/python`
-2. `heroku/nodejs`
+<img src="assets/images/am-i-responsive.png">
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+</section>
+<section id="how_to">
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+# How to play 
 
-Connect your GitHub repository and deploy as normal.
+Smashing Sudoku is based on the classic pen and paper game Sudoku, popularised by Maki Kanji. You can learn more about Sudoku [here](https://en.wikipedia.org/wiki/Sudoku)
 
-## Constraints
+The rules for Sudoku are quite simple. 
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+- There is a 9 x 9 grid which must be filled with numbers
+- The game starts with some squares already filled in
+- only the numbers 1 - 9 can be used 
+- Every square must contain one number 
+- Each 3×3 box can only contain each number from 1 to 9 once
+- Each vertical column can only contain each number from 1 to 9 once
+- Each horizontal row can only contain each number from 1 to 9 once
 
------
-Happy coding!
+</section>
+
+<section id="ux">
+
+# UX Design
+
+## <p id="user_stories"> User Stories</p>
+- As a user I want a digital version of sudoku to avoid paper waste.
+- As a user I want varying levels of difficulty to suit the mood I am in or to train myself to get better at sudoku. 
+- As a user I want the option to get hints to the correct solution whenever I need it. 
+- As a user I want to know if my solution is correct or not.
+- As a user I want to be able to pencil in numbers that can be edited later.
+- As a user, I want to know how long it takes me to complete a puzzle.
+
+All user needs are met by the program. 
+
+  - It is fully digital. 
+
+  - It has 3 levels of difficulty to choose from. 
+
+  - The user can get hints to any cell on the board. 
+
+  - The user can choose to see the solution at the end of the game. 
+
+  - The user inputs in red can be re-inputted.
+
+  - A timer displays how long it took to complete the game at the end of the game. 
+
+  ## <p id="typography">Typography</p> 
+
+  - [Arial](https://docs.microsoft.com/en-us/typography/font-list/arial) is used for the "RUN PROGRAM" button. 
+
+

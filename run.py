@@ -68,7 +68,7 @@ def unsolved_puzzle(board,difficulty):
                 board_copy=board
                 if solve_sudoku(board_copy,not_check):
                     board[i,j]=not_check 
-					continue 
+				    continue 
                 row_start=(i//3)*3 
                 col_start=(j//3)*3 
                 if difficulty == "Easy": 
