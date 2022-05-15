@@ -8,7 +8,7 @@ def Show_Board(board):
         for j in range(9):  # j represents columns 
             if  j == 0:
                 print("|", end='')
-            elif  j != 8:
+            if  j != 8:
                 print(board[i, j], end=' ')
             else:
                 print(board[i, j], end='')
