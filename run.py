@@ -15,7 +15,7 @@ def Show_Board(board):
             if (j+1) % 3 == 0:
                 print("|", end='')
         if (i+1) % 3 == 0:
-            print("\n---------------------",end='')
+            print("\n---------------------", end='')
         print()
 
 # This function finds an empty cell
@@ -50,13 +50,13 @@ def check_input_validity(board, row, col, num):
 def unsolved_puzzle(board, difficulty): 
     count, done = 0, False 
     if difficulty == "Easy": 
-        print("Generating Easy Difficulty Puzzle...\n\n")
+        print("Play SmashSudoku easy puzzle...\n\n")
         upper_limit = 35
     elif difficulty == "Medium": 
-        print("Generating Medium Difficulty Puzzle ...\n\n")
+        print("Play SmashSudoku medium difficulty puzzle ...\n\n")
         upper_limit = 41
     else: 
-        print("Generating Hard Difficulty Puzzle ...\n\n")
+        print("Play SmashSudoku fiendishly difficult puzzle ...\n\n")
         upper_limit = 47
     while True:  
         i = random.randint(0, 8) 
@@ -137,7 +137,7 @@ def solve_sudoku(board, not_check):
 # Inputs difficulty and initializes playing board
 
 def main():
-    ch = int(input("Hello!Choose the level of difficulty-\n1.Easy\n2.Medium\n3.Hard\nYour choice:"))#done
+    ch = int(input("Welcome! Choose the level of difficulty-\n1.Easy\n2.Medium\n3.Hard\nYour choice:"))#done
     if ch == 1:
         difficulty = "Easy"
     elif ch == 2:
@@ -156,5 +156,5 @@ def main():
         print("There is no solution!")
     return
 
-if __name__== "__main__":
+if __name__ == "__main__":
     main()
