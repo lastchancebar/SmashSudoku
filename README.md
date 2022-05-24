@@ -88,4 +88,44 @@ All user needs are met by the program.
 
   - [Arial](https://docs.microsoft.com/en-us/typography/font-list/arial) is used for the "RUN PROGRAM" button. 
 
+</section>
+
+<section id="features">
+
+## <p id="solution">Solution</p>
+- When user has finished filling the board they can choose to see the solution to the board. If the user wants to leave the game they can input number 10 and the solved puzzle will be presented on screen.
+
+
+<img src="assets/images/solution.png">
+
+
+## <p id="input_val">Input Validation</p>
+
+- Difficulty selection
+  - You can not select anything other than 1, 2 or 3
+
+<img src="assets/images/dif_input.png">
+
+- Row, Column input 
+  - You can only input a number(1-9) for each row and column.
+  - 
+
+<img src="assets/images/r_c_input.png">
+
+- Number Input 
+  - You can only input number (1-9)
+
+<img src="assets/images/num_h_input.png">
+
+- See solution & play again input
+  - You can only enter '10'
+
+<img src="assets/images/y_n_input.png">
+
+## <p id="future">Future Features</p>
+- implement app into a GUI like pygame
+- add a timer
+
+</section>
+
 
