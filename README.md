@@ -1,7 +1,7 @@
-# Smashing Sudoku 
+# SmashSudoku 
 
 ## Table of Contents 
-- <a href="#about">About Smashing Sudoku</a>
+- <a href="#about">About SmashSudoku</a>
 - <a href="#how_to">How to play</a>
 - <a href="#ux">UX Design</a>
   - <a href="#user_stories">User Stories</a>
@@ -34,25 +34,25 @@
 
 <section id="about">
 
-# About Smashing Sudoku
-Smashing Sudoku is a Python terminal game. It is deployed on heroku and uses a mock terminal made by Code institute. 
+# About SmashSudoku
+SmashSudoku is a Python terminal game. It is deployed on Heroku and uses a mock terminal custom made by Code institute. 
 
 Users can play the classic game of Sudoku popularised by Maki Kaji.
 
-Users can select an easy, medium or hard Sudoku puzzle to solve, get hints if they are stuck on a square, and after finishing the puzzle users can see the correct solution as well as see how long it took to fill the board. 
+Users can select an easy, medium or hard Sudoku puzzle to solve,  and after finishing the puzzle users can see the correct solution. 
 
-[The deployed site is here!](https://smashing-sudoku.herokuapp.com/)
+[The deployed site is here!](https://smashed-sudoku.herokuapp.com/)
 
-<img src="assets/images/am-i-responsive.png">
+<img src="assets/images/smashsami.jpeg">
 
 </section>
 <section id="how_to">
 
 # How to play 
 
-Smashing Sudoku is based on the classic pen and paper game Sudoku, popularised by Maki Kanji. You can learn more about Sudoku [here](https://en.wikipedia.org/wiki/Sudoku)
+SmashSudoku is based on the classic pen and paper game Sudoku, popularised by Maki Kanji. You can learn more about Sudoku [here](https://en.wikipedia.org/wiki/Sudoku)
 
-The rules for Sudoku are quite simple. 
+The rules for Sudoku are as follows -
 
 - There is a 9 x 9 grid which must be filled with numbers
 - The game starts with some squares already filled in
@@ -71,10 +71,9 @@ The rules for Sudoku are quite simple.
 ## <p id="user_stories"> User Stories</p>
 - As a user I want a digital version of sudoku to avoid paper waste.
 - As a user I want varying levels of difficulty to suit the mood I am in or to train myself to get better at sudoku. 
-- As a user I want the option to get hints to the correct solution whenever I need it. 
-- As a user I want to know if my solution is correct or not.
+-  As a user I want to know if my solution is correct or not.
 - As a user I want to be able to pencil in numbers that can be edited later.
-- As a user, I want to know how long it takes me to complete a puzzle.
+
 
 All user needs are met by the program. 
 
@@ -82,13 +81,8 @@ All user needs are met by the program.
 
   - It has 3 levels of difficulty to choose from. 
 
-  - The user can get hints to any cell on the board. 
-
   - The user can choose to see the solution at the end of the game. 
 
-  - The user inputs in red can be re-inputted.
-
-  - A timer displays how long it took to complete the game at the end of the game. 
 
   ## <p id="typography">Typography</p> 
 
